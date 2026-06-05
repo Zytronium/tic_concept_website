@@ -6,13 +6,14 @@ export default function FAQPage() {
     const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(new Set());
 
     const questionsAndAnswers = {
-        "How are OKTIA and the Oklahoma Technology Alliance different?": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
-        "How can I become a member of OKTIA?": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
-        "Example question 3": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
-        "Example question 4": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
-        "Example question 5": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
-        "Example question 6": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
-    }
+        "How are TIC and Tulsa Innovation Labs different?": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
+        "How can I become a member of TIC?": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
+        "How can I get involved with TIC without becoming a member?": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
+        "How do members of TIC contribute to the advancement of technology and innovation in Tulsa?": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
+        "Does TIC ever operate in areas outside of Tulsa as well?": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.",
+        "Is TIC a real organization?": "Actually, no. This is a mock website for a fictional organization, made to showcase what similar clients will get if they need a website from this website's designer. For more information, visit webworks.zytronium.dev.",
+        "Why are all the answers Latin gibberish?": "Lorem ipsum is a common placeholder text used to demonstrate the visual form of a document or a typeface without relying on meaningful content. If you read the answer to the above question, you'll know why it's used here.",
+}
 
     const toggleQuestion = (question: string) => {
         setExpandedQuestions(prev => {

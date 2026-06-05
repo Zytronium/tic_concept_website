@@ -19,7 +19,7 @@ function useActiveTab(href: string) {
 function OktiaLogo() {
     return (
         <Link href="/" className="flex items-center gap-3 shrink-0">
-            <Image src="/OKTIA Logo Approx Transparent BG.png" alt="OKTIA" width={140} height={60} className="w-auto h-12 md:h-16 lg:h-20" priority />
+            <Image src="/TIC_Logo.png" alt="Tulsa Innovation Collective" width={340} height={130} className="w-auto h-12 md:h-16 lg:h-20" priority />
         </Link>
     );
 }
@@ -103,7 +103,7 @@ export default function Header() {
                 <div className="max-w-7xl mx-auto flex items-center md:items-end justify-between gap-4 md:gap-6">
 
                     {/* Left: logo */}
-                    <div className="pb-2 md:pb-3">
+                    <div className="pb-1.5 md:pb-2">
                         <OktiaLogo />
                     </div>
 
@@ -136,7 +136,7 @@ export default function Header() {
                                 "transition-all duration-150 shadow-sm hover:shadow-md active:scale-95",
                             ].join(" ")}
                         >
-                            JOIN OKTIA!
+                            JOIN TIC!
                         </Link>
 
                         {/* Tab strip */}

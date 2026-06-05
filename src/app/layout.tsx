@@ -8,12 +8,12 @@ import { ViewTransition as ViewTransition } from "react";
 // Override per-page with `export const metadata` in each page.tsx.
 export const metadata: Metadata = {
   title: {
-    // Shown as-is on the home page; other pages get "Page Name | OKTIA"
-    default: "Oklahoma Technology & Innovation Association",
-    template: "%s | OKTIA",
+    // Shown as-is on the home page; other pages get "Page Name | TIC"
+    default: "Tulsa Innovation Collective (concept website)",
+    template: "%s | TIC",
   },
   description:
-    "Learn about OKTIA, become a member, or get in touch with Oklahoma's technology and innovation association.",
+    "Learn about TIC, become a member, or get in touch with Tulsa Innovation Collective. Join us in advancing technology in Tulsa and beyond. Note: TIC does not exist and this is a concept website for a fictional organization.",
 };
 
 export default function RootLayout({

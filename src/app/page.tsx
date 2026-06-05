@@ -54,7 +54,7 @@ export default function Home() {
                 <section
                     className="relative w-full min-h-[60vh] flex items-center justify-center pt-6 pb-12 md:pt-12 md:pb-24 px-4 md:px-8"
                     style={{
-                        backgroundImage: 'url(/stock_photo.png)',
+                        backgroundImage: 'url(/stock-photo.webp)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}>
@@ -67,7 +67,7 @@ export default function Home() {
 
                         {/* Main heading */}
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-white drop-shadow-sm max-w-4xl">
-                            Oklahoma Technology &amp; Innovation Association
+                            Tulsa Innovation Collective
                         </h1>
 
                         {/* Divider */}
@@ -84,7 +84,7 @@ export default function Home() {
                 <section className="bg-white text-black py-6 md:py-10 px-4 md:px-8 w-full">
                     <div className="section-container">
                         <h2 className="text-3xl md:text-4xl text-[#11583F] font-bold mb-4 tracking-tight ml-2">
-                            About OKTIA
+                            About TIC
                         </h2>
                         {/* Brief description of the organization */}
                         <p className="text-gray-600 leading-relaxed max-w-3xl">

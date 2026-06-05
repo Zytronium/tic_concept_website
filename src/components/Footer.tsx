@@ -20,7 +20,7 @@ export default function Footer() {
                 <div className="flex justify-center md:justify-start">
                     <div className="flex flex-col items-center justify-center w-fit text-center md:text-left">
                         <Link href="/">
-                            <Image src="/OKTIA Logo Approx.png" alt="OKTIA" className="rounded-xl overflow-hidden" width={180} height={80} priority />
+                            <Image src="/TIC_Logo_White_BG.png" alt="Tulsa Innovation Collective logo" className="rounded-xl overflow-hidden w-auto h-10 md:h-14 lg:h-18 p-2 bg-white" width={180} height={80} priority />
                         </Link>
                         <p className="text-green-200/70 text-sm leading-relaxed mb-1">
                             [Insert slogan here]
@@ -72,15 +72,14 @@ export default function Footer() {
             {/* Bottom bar */}
             <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/10 flex flex-col-reverse sm:flex-row items-center justify-between gap-3 text-xs text-green-200/50 text-center sm:text-left">
                 <p>
-                    &copy; {new Date().getFullYear() + " "} Oklahoma Technology and Innovation
-                    Association. All rights reserved.
+                    &copy; {new Date().getFullYear() + " "} Tulsa Innovation Collective. All rights reserved.
                 </p>
 
                 <a
-                    href="mailto:info@oktia.org"
+                    href="mailto:tic@example.com"
                     className="text-green-300 text-xs hover:text-green-200 transition-colors sm:mt-0 mt-2 inline-block"
                 >
-                    info@oktia.org
+                    tic@example.com
                 </a>
             </div>
         </footer>
