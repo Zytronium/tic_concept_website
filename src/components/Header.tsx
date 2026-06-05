@@ -16,7 +16,7 @@ function useActiveTab(href: string) {
     return href === "/" ? pathname === "/" : pathname.startsWith(href);
 }
 
-function OktiaLogo() {
+function TicLogo() {
     return (
         <Link href="/" className="flex items-center gap-3 shrink-0">
             <Image src="/TIC_Logo.png" alt="Tulsa Innovation Collective" width={340} height={130} className="w-auto h-12 md:h-16 lg:h-20" priority />
@@ -104,7 +104,7 @@ export default function Header() {
 
                     {/* Left: logo */}
                     <div className="pb-1.5 md:pb-2">
-                        <OktiaLogo />
+                        <TicLogo />
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -168,9 +168,9 @@ export default function Header() {
                             <Link
                                 href="/membership"
                                 onClick={() => setIsMenuOpen(false)}
-                                className="mt-4 px-6 py-4 bg-[#1a5c28] text-white text-center font-extrabold text-lg rounded-full shadow-md active:scale-[0.98] transition-all"
+                                className="mt-4 px-6 py-4 bg-[#11583FFF] active:bg-[#0f402c] text-white text-center font-extrabold text-lg rounded-full shadow-md active:scale-[0.98] transition-all"
                             >
-                                JOIN OKTIA!
+                                JOIN TIC!
                             </Link>
                         </nav>
                     </div>

@@ -23,7 +23,7 @@ export default function Footer() {
                             <Image src="/TIC_Logo_White_BG.png" alt="Tulsa Innovation Collective logo" className="rounded-xl overflow-hidden w-auto h-10 md:h-14 lg:h-18 p-2 bg-white" width={180} height={80} priority />
                         </Link>
                         <p className="text-green-200/70 text-sm leading-relaxed mb-1">
-                            [Insert slogan here]
+                            Where Tulsa Builds Tomorrow
                         </p>
                     </div>
                 </div>

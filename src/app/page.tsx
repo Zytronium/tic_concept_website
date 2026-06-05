@@ -12,7 +12,7 @@ const BOARD_MEMBERS: BoardMember[] = [
         pfp_src: "/placeholder_profile.png",
         name: "John Smith",
         role: "President",
-        description: "Dedicated to advancing technology initiatives across Oklahoma."
+        description: "Dedicated to advancing technology initiatives throughout the Tulsa metro area."
     },
     {
         pfp_src: "/placeholder_profile.png",
@@ -74,13 +74,13 @@ export default function Home() {
                         <div className="w-48 h-0.5 bg-[#6E1338]/60 rounded-full"/>
 
                         {/* Mission statement */}
-                        <p className="text-base md:text-lg gray-100 italic max-w-xl leading-relaxed">
-                            [Mission statement goes here]
+                        <p className="text-base md:text-lg gray-100 italic max-w-2xl leading-relaxed">
+                            Connecting Tulsa's tech pioneers to drive innovation, community, and growth
                         </p>
                     </div>
                 </section>
 
-                {/* Who We Are */}
+                {/* About and Who We Are */}
                 <section className="bg-white text-black py-6 md:py-10 px-4 md:px-8 w-full">
                     <div className="section-container">
                         <h2 className="text-3xl md:text-4xl text-[#11583F] font-bold mb-4 tracking-tight ml-2">
@@ -88,11 +88,11 @@ export default function Home() {
                         </h2>
                         {/* Brief description of the organization */}
                         <p className="text-gray-600 leading-relaxed max-w-3xl">
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-                            pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-                            aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-                            Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-                            aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                            The Tulsa Innovation Collective exists to unite technologists, entrepreneurs, and
+                            forward-thinking organizations across the Tulsa metro, and to encourage technological
+                            innovation to improve Oklahoma&apos;s future. We foster collaboration, amplify
+                            emerging talent, and champion the ideas that will define Oklahoma&apos;s technological
+                            and igital future.
                         </p>
                     </div>
                     <div className="section-container flex flex-col items-end">
@@ -100,18 +100,33 @@ export default function Home() {
                             Who We Are
                         </h2>
                         {/* Description of what kind of people are in the organization */}
+                        <p className="text-gray-600 leading-relaxed max-w-3xl text-right mb-2">
+                            The Tulsa Innovation Collective is a member-driven organization built by and for the
+                            technologists, builders, and innovators who call Tulsa home. We bring together professionals
+                            from across the tech spectrum, from software engineers and data scientists to startup
+                            founders and enterprise leaders, united by a shared belief that Tulsa&apos;s best days
+                            are still ahead.
+                        </p>
+                        <p className="text-gray-600 leading-relaxed max-w-3xl text-right mb-2">
+                            Founded in the spirit of Green Country&apos;s entrepreneurial grit, TIC exists to close the
+                            gap between ambition and opportunity. We create the connections, resources, and platforms
+                            that help Tulsa&apos;s tech community grow faster, collaborate deeper, and compete on a
+                            national stage.
+                        </p>
+                        <p className="text-gray-600 leading-relaxed max-w-3xl text-right mb-2">
+                            We&apos;re not a networking club or a trade lobby. We&apos;re a collective,
+                            which means every member has a voice, every idea has a seat at the table, and the work we
+                            do reflects the community we serve.
+                        </p>
                         <p className="text-gray-600 leading-relaxed max-w-3xl text-right">
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit. Adipiscing elit quisque faucibus ex
-                            sapien vitae pellentesque. Vitae pellentesque sem placerat in id cursus mi. Cursus mi
-                            pretium tellus duis convallis tempus leo. Tempus leo eu aenean sed diam urna tempor. Urna
-                            tempor pulvinar vivamus fringilla lacus nec metus.
+                            Whether you&apos;re launching your first startup, scaling your team, or looking to
+                            plug into a city that&apos;s genuinely on the rise, TIC is where that journey starts.
                         </p>
                         {/* Section listing Board of directors and profiles */}
                         <div className="w-full mt-8 md:mt-12">
                             <h3 className="text-2xl md:text-3xl text-[#11583F] font-bold mb-6 tracking-tight text-center">
                                 Board of Directors
                             </h3>
-                            <p className="text-xs font-gray-500 text-center mt-[-25] mb-6">Note: These are AI-generated placeholders.</p>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {BOARD_MEMBERS.map((member) => (
                                     <ProfileCard
